@@ -2,6 +2,9 @@
 
 Author: Tyler Schelling
 
+##Goal 
+The goal of this project is to help the retailer understand the products and outlets that play a crucial role in increasing retail sales.
+
 <p align="center">
   <img src = "https://t3.ftcdn.net/jpg/02/72/40/68/360_F_272406819_djyh9kysHidrdUOgoDEujj7HGSOwzlmS.jpg">
 </p>
@@ -23,6 +26,16 @@ Outlet_Type	|Whether the outlet is a grocery store or some sort of supermarket
 Item_Outlet_Sales	|Sales of the product in the particular store. This is the target variable to be predicted.
 
 This project looked at feautures of a grocery retailer to determine their role in increasing sales.
+
+##Methods
+- Missing values were imputed using the 'item_id' weight
+  - If 'item_id' weight was missing, the average weight for the 'item_type' was imputed.
+- Missing 'outlet_size' was replaced with 'Unknown'
+
+- Predictions were made using Linear Regression, a Decision Tree Model, and a Random Forest Model
+  - Models had hyperparameters tuned for optimized results
+  
+- Regression metrics were used to compare the models to aid in the decision of recommending a specific model. 
 
 ## Insights
 ### Total Sales by Outlet Size
