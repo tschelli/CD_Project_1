@@ -2,13 +2,13 @@
 
 Author: Tyler Schelling
 
-##Goal 
-The goal of this project is to help the retailer understand the products and outlets that play a crucial role in increasing retail sales.
-
 <p align="center">
   <img src = "https://t3.ftcdn.net/jpg/02/72/40/68/360_F_272406819_djyh9kysHidrdUOgoDEujj7HGSOwzlmS.jpg">
 </p>
-  
+
+## Goal 
+The goal of this project is to help the retailer understand the products and outlets that play a crucial role in increasing retail sales.
+
 ## Data Dictionary for the Dataset
 Variable Name	   |  Description
 -------------------|------------------
@@ -27,7 +27,7 @@ Item_Outlet_Sales	|Sales of the product in the particular store. This is the tar
 
 This project looked at feautures of a grocery retailer to determine their role in increasing sales.
 
-##Methods
+## Methods
 - Missing values were imputed using the 'item_id' weight
   - If 'item_id' weight was missing, the average weight for the 'item_type' was imputed.
 - Missing 'outlet_size' was replaced with 'Unknown'
