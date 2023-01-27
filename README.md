@@ -78,6 +78,26 @@ Random Forest Optimized Test |727.39|1,091,546.28|1,044.77|0.6044
 
 ## Coefficient and Feature Importance
 
-![image](/Data/LinearRegression%20Coefficients.png)
+![image](/Images/LinearRegression%20Coefficients.png)
 
-![image](/Data/Dec%20Tree%20-%20Feature%20Importance.png)
+![image](/Images/Dec%20Tree%20-%20Feature%20Importance.png)
+
+## SHAP 
+
+![image](/Images/summary_plot_bar.png)
+
+![image](/Images/summary_plot_dot.png)
+
+## Forceplots and LIME
+
+### Lowest MRP
+
+![image](/images/lowest_forceplot.PNG)
+
+![image](/images/lowest_LIME.PNG)
+
+### Highest MRP
+
+![image](/images/highest_forceplot.PNG)
+
+![image](/images/highest_LIME.PNG)
