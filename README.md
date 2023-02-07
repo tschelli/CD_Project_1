@@ -92,12 +92,12 @@ Random Forest Optimized Test |727.39|1,091,546.28|1,044.77|0.6044
 
 ### Lowest MRP
 
-![image](/images/lowest_forceplot.PNG)
+![image](/Images/lowest_forceplot.PNG)
 
-![image](/images/lowest_LIME.PNG)
+![image](/Images/lowest_LIME.PNG)
 
 ### Highest MRP
 
-![image](/images/highest_forceplot.PNG)
+![image](/Images/highest_forceplot.PNG)
 
-![image](/images/highest_LIME.PNG)
+![image](/Images/highest_LIME.PNG)
